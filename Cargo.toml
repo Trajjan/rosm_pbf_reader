@@ -13,9 +13,6 @@ categories = ["parser-implementations", "encoding"]
 flate2 = { version = "1.0.25", features = ["zlib-ng"], default-features = false }
 prost = "0.11.6"
 
-[features]
-default = ["flate2"]
-
 [build-dependencies]
 prost-build = "0.11.6"
 
