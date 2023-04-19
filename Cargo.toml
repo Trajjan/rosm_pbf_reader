@@ -10,7 +10,7 @@ keywords = ["osm", "openstreetmap", "osmpbf"]
 categories = ["parser-implementations", "encoding"]
 
 [dependencies]
-flate2 = { version = "1.0.25", features = ["zlib-ng"], default-features = false }
+flate2 = { version = "1.0.25", features = ["zlib-ng"] }
 prost = "0.11.6"
 
 [build-dependencies]
